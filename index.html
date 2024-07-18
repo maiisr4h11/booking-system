@@ -8,26 +8,44 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
+    <style>
+        .card .read-more:hover{
+    font-size: 14px;
+}
+
+.card:hover{
+    box-shadow: 8px 8px 8px blue;
+    transform:scale(1.2);
+}
+
+.card{
+  height:200px;
+  width:200px;
+  border:1px solid black;
+  transition:.3s;
+  margin: 3rem;
+}
+    </style>
+</head>
   <body>
     <!DOCTYPE html>
     <html lang="ms">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Perkhidmatan Kerja Kampung</title>
+        <title>Services</title>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
         <section id="services" class="py-5">
             <div class="container">
-                <h2 class="text-center mb-4">Perkhidmatan Kami</h2>
+                <h2 class="text-center mb-4">Our Services</h2>
                 <div class="row">
                     <div class="col-lg-4 mb-4">
                         <div class="card h-100">
                             <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Pertanian">
                             <div class="card-body">
-                                <h5 class="card-title">Pertanian</h5>
+                                <h5 class="card-title">Farming</h5>
                                 <p class="card-text">Kami membantu dalam penanaman padi, sayur-sayuran, dan buah-buahan dengan teknik moden dan tradisional.</p>
                             </div>
                         </div>
@@ -36,7 +54,7 @@
                         <div class="card h-100">
                             <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Perikanan">
                             <div class="card-body">
-                                <h5 class="card-title">Perikanan</h5>
+                                <h5 class="card-title">Fishing</h5>
                                 <p class="card-text">Perkhidmatan kami termasuklah penangkapan ikan dan pembiakan ikan air tawar dan air masin.</p>
                             </div>
                         </div>
@@ -45,7 +63,7 @@
                         <div class="card h-100">
                             <img src="https://via.placeholder.com/350x150" class="card-img-top" alt="Penternakan">
                             <div class="card-body">
-                                <h5 class="card-title">Penternakan</h5>
+                                <h5 class="card-title">Agriculture</h5>
                                 <p class="card-text">Kami menawarkan bantuan dalam penternakan lembu, kambing, dan ayam termasuk penjagaan dan pemasaran.</p>
                             </div>
                         </div>
